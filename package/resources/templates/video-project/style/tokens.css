@@ -1,0 +1,54 @@
+:root {
+  --bg: #11161c;
+  --text: #f2eee4;
+  --muted: #8f999e;
+  --accent-1: #d5ad6d;
+  --accent-2: #a67d4c;
+  --accent-3: #6f8fa3;
+
+  --font-display: 'Noto Serif SC', 'Songti SC', serif;
+  --font-body: 'Microsoft YaHei', system-ui, sans-serif;
+  --font-mono: Consolas, monospace;
+
+  --dur-fast: 240ms;
+  --dur-base: 420ms;
+  --dur-slow: 720ms;
+  --ease-out: cubic-bezier(.22, .61, .36, 1);
+  --density: 1;
+
+  --safe-x: 6%;
+  --safe-y: 7%;
+  --subtitle-size: 32px;
+  /* Three.js 三套样例预设的颜色，可按本片风格覆盖。 */
+  --three-c0: #83cfc1;
+  --three-c1: #e3a19d;
+  --three-c2: #a99fd0;
+  --three-c3: #85b9df;
+  --three-c4: #e9b66f;
+  --three-c5: #99c99e;
+  --three-c6: #c8cacc;
+  --three-c7: #e9f0f4;
+  --three-c8: #e1e5e8;
+  --three-c9: #e4e7e9;
+  --three-c10: #537b73;
+  --three-c11: #b1c0c9;
+  --three-c12: #d7a75a;
+  --three-c13: #f7e5bb;
+  --three-c14: #f8f1e4;
+  --three-c15: #050506;
+  --three-c16: #ffd2a2;
+  --three-c17: #d6e1ff;
+  --three-c18: #151311;
+  --three-c19: #f3e8d4;
+  --three-c20: #b7b7b5;
+  --three-c21: #cdd0d0;
+  --three-c22: #ffce8a;
+  --three-c23: #222226;
+  --three-c24: #0d131e;
+  --three-c25: #080b10;
+  --three-c26: #08090b;
+  --three-c27: #e6a65c;
+  --three-c28: #ffc07b;
+  --three-c29: #ad8051;
+  --three-c30: #07080b;
+}

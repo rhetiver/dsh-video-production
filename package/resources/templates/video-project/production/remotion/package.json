@@ -1,0 +1,32 @@
+{
+  "name": "{{NAME}}-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sync": "node tools/sync-beats.cjs",
+    "cues": "node tools/extract-video-cues.cjs ../配音工作台/subtitle-segments.json",
+    "timeline": "node tools/build-dubbed-timeline.cjs ../配音工作台/subtitle-segments.json",
+    "subtitles": "node tools/build-subtitle-schedule.cjs",
+    "dev": "node tools/sync-beats.cjs && remotion studio src/index.tsx --port 3013",
+    "still": "node tools/sync-beats.cjs && remotion still src/index.tsx Video out/still.png",
+    "render": "node tools/sync-beats.cjs && remotion render src/index.tsx Video ../../dist/video.mp4",
+    "render:dubbed": "node tools/sync-beats.cjs && remotion render src/index.tsx VideoDubbed ../../dist/video-dubbed.mp4",
+    "check": "tsc --noEmit",
+    "accents:plan": "node ../../scripts/plan-accents.cjs",
+    "lint": "node ../../scripts/lint-timeline.cjs && node ../../scripts/lint-style.cjs && node ../../scripts/lint-accents.cjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.539",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.539",
+    "three": "0.187.0",
+    "@react-three/fiber": "9.8.2",
+    "@remotion/three": "4.0.539"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3",
+    "@types/three": "0.187.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "title": "{{TITLE}}",
+  "fps": {{FPS}},
+  "canvas": { "width": {{W}}, "height": {{H}} },
+  "generatedBy": "占位文件，运行 npm run sync 会用 content/beats.json 覆盖",
+  "beats": [
+    { "id": "b001", "chapter": "", "text": "占位节拍", "estSec": 3, "startFrame": 0, "endFrame": 90 }
+  ]
+}

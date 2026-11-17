@@ -1,0 +1,11 @@
+{
+  "name": "dsh-video-production",
+  "version": "0.6.0",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {".": "./index.js", "./client": "./client.js", "./package.json": "./package.json"},
+  "files": ["index.js", "client.js", "voice.js", "voice-dialog.ps1", "voice-setup.ps1", "cordis.patch.yml", "README.md", "resources"],
+  "dsh": {"bundle": {"patch": "./cordis.patch.yml"}, "client": {"platform": "web", "inject": ["@deepseek-ai/dsh-client-ui-conversation", "@deepseek-ai/dsh-client-ui-session"]}},
+  "peerDependencies": {"@deepseek-ai/dsh-tools": "0.2.2-rc.3"},
+  "devDependencies": {"@deepseek-ai/dsh-tools": "0.2.2-rc.3"}
+}

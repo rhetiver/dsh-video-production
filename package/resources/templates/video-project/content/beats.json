@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "title": "{{TITLE}}",
+  "fps": {{FPS}},
+  "canvas": {"width": {{W}}, "height": {{H}}},
+  "generatedBy": "scripts/script-to-beats.cjs",
+  "voiceRate": 4.77,
+  "beats": [
+    {
+      "id": "b001",
+      "chapter": "开场",
+      "text": "这里写第一段口播",
+      "estSec": 1.68,
+      "startFrame": 0,
+      "endFrame": 50
+    },
+    {
+      "id": "b002",
+      "chapter": "开场",
+      "text": "每个句子分别录音",
+      "estSec": 1.68,
+      "startFrame": 50,
+      "endFrame": 100
+    },
+    {
+      "id": "b003",
+      "chapter": "开场",
+      "text": "这里继续介绍内容，让每句话都清晰易懂",
+      "estSec": 3.56,
+      "startFrame": 100,
+      "endFrame": 207
+    },
+    {
+      "id": "b004",
+      "chapter": "开场",
+      "text": "这是第二段口播",
+      "estSec": 1.47,
+      "startFrame": 207,
+      "endFrame": 251
+    },
+    {
+      "id": "b005",
+      "chapter": "开场",
+      "text": "空行或分隔线都算换段",
+      "estSec": 2.1,
+      "startFrame": 251,
+      "endFrame": 314
+    },
+    {
+      "id": "b006",
+      "chapter": "正文",
+      "text": "正文第一段",
+      "estSec": 1.05,
+      "startFrame": 314,
+      "endFrame": 345
+    },
+    {
+      "id": "b007",
+      "chapter": "正文",
+      "text": "每句尽量控制在八到二十字",
+      "estSec": 2.52,
+      "startFrame": 345,
+      "endFrame": 420
+    },
+    {
+      "id": "b008",
+      "chapter": "正文",
+      "text": "正文第二段",
+      "estSec": 1.05,
+      "startFrame": 420,
+      "endFrame": 451
+    }
+  ]
+}
